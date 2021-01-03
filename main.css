@@ -1,0 +1,126 @@
+/* GLOBAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-blue-color:  rgb(112, 185, 253);
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1{
+    text-align: center;
+    padding:30px;
+    font-weight: 400;
+}
+
+/* DIV ID INPUT */
+#input{
+    text-align: center;
+}
+
+#input input,
+#input select{
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+h4{
+    margin:10px;
+}
+
+#input p{
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+
+.button{
+    background-color: var(--main-blue-color);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+.button:hover{
+    background-color: rgb(56, 153, 245);
+}
+
+form{
+    text-align: left;
+    margin: 10px;
+    padding: 10px;
+    max-width: 240px;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.tasks #color{
+    height: 10px;
+    width: 50px;
+    background-color: red;
+}
+/* DIV ID FORMS */
+#forms{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* DIV ID DATA */
+.avg{
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+
+    border: 1px solid black;
+}
+
+td, th{
+    height: 50px;
+    min-width: 50px;
+}
+
+table{
+    margin-top: 50px;
+    margin-left: 10px;
+
+}
+
+#priority{
+    background-color:#f5383b;
+    text-align: center;
+    font-weight: 900;
+}
+
+.completed{
+    color: white;
+    background-color: rgb(17, 15, 13);
+    text-align: center;
+    font-weight: 900;
+}
+
+.task-number{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    padding: 15px;
+    background-color: var(--main-blue-color) ;
+}
+
